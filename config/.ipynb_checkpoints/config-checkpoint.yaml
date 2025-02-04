@@ -1,0 +1,6 @@
+dataset_path: 'solar_panel_dataset'
+images_path: 'dataset_1/images'
+annotations_path: 'dataset_1/annotations'
+epochs: 100
+run_name: 'solar_crack_detection'
+model_save_path: 'models/solar_crack_detector.pt'
