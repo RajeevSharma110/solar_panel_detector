@@ -64,5 +64,5 @@ class SolarPanelCrackDetector:
 if __name__ == "__main__":
     detector = SolarPanelCrackDetector("config/config.yaml")
     detector.train_model()  # Train the model
-    results = detector.predict("/home/antonio/Documents/JupyterNotebooks/Rajeev_Sharma/solar_panel_detector/dataset_1/images/003R.jpg")  # Test prediction
+    results = detector.predict("/home/antonio/Documents/JupyterNotebooks/Rajeev_Sharma/solar_panel_detector/Electroluminescence+(EL)+Testing+for+PV+Modules.jpg")  # Test prediction
     print(results)
