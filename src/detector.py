@@ -30,7 +30,7 @@ class SolarPanelCrackDetector:
 
     def train_model(self):
         """
-        Train the YOLOv8 model using the dataset.
+        Train the YOLOv11 model using the dataset.
         """
         model = YOLO("yolo11n.pt")  # Ensure correct YOLO version
         
